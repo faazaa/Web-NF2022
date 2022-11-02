@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(136, 189, 148);
+    font-family: 'lucida sans', Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(252, 233, 192)
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+    color: brown;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    background-color: black;
+}
+
+.foto img {
+    width: 23%;
+}
+
+.cod {
+    margin: auto;
+    width: 80%;
+}
+
+.cod p {
+    background-color: rgb(219, 233, 216);
+    border: 5px dotted rgb(80, 80, 126);
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    display: block;
+    margin: 0 auto;
+}
