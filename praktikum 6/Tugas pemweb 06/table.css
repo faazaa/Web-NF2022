@@ -1,0 +1,23 @@
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+ 
+.table1, th, td {
+    border: 1px solid rgb(46, 82, 158);
+    padding: 8px 20px;
+}
+
+th {
+    background-color: rgb(90, 125, 179);
+    color: aliceblue;
+}
+
+#no1 {
+    background-color: rgb(210, 227, 235);
+}
+
+#no3 {
+    background-color:rgb(210, 227, 235) ;
+}
