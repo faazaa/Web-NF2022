@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        body {
+            background-color: rgb(159, 191, 212);
+        }
+    </style>
+</head>
+<body>
+    <select id="selectImg" onchange="imgPicker()">
+        <option value="">-- Pilih Member --</option>
+        <option value="eye">Jeno</option>
+        <option value="pretty">Karina</option>
+        <option value="do">Doyoung</option>
+        <option value="tanda">Mark</option>
+        <option value="salju">Winter</option>
+        <option value="kang">Seulgi</option>
+        <option value="ning">NingNing</option>
+        <option value="muda">Chenle</option>
+    </select>
+    <figure>
+        <img id="imgFigure" src="" alt="">
+    </figure>
+
+    <script src="img.js"></script>
+</body>
+</html>
